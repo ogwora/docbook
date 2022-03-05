@@ -7,6 +7,6 @@ import (
 
 func main() {
 	// Simple static Webserver
-	log.Fatal(http.ListenAndServe(":80",
+	log.Fatal(http.ListenAndServe(":8080",
 		http.FileServer(http.Dir("/perm/tdg"))))
 }
